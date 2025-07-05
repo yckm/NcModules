@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Cobot">
+      <UniqueIdentifier>{a1dabb20-e97a-415d-a9cd-f3ab16a00d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{b9d1ae24-bca8-40ac-8d48-9191a09693a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{99e36288-598d-4f04-9b0e-9c3d4306647c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\base64">
+      <UniqueIdentifier>{0d276862-039a-4082-a2fd-8d940c2b1deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clash">
+      <UniqueIdentifier>{a2494c4a-caca-4262-8a8f-8381bccca10c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wysiwyg">
+      <UniqueIdentifier>{8d0a8f83-3370-4c01-95ec-6a3d27c94497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wysiwyg\Kinematrics">
+      <UniqueIdentifier>{3c740663-e75e-4a93-b61f-7b5948424f53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cobot\Cobot.cpp">
+      <Filter>Cobot</Filter>
+    </ClCompile>
+    <ClCompile Include="Proxy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\base64\base64.cpp">
+      <Filter>Utils\base64</Filter>
+    </ClCompile>
+    <ClCompile Include="Clash\ArmDistance.cpp">
+      <Filter>Clash</Filter>
+    </ClCompile>
+    <ClCompile Include="Clash\EnvDistance.cpp">
+      <Filter>Clash</Filter>
+    </ClCompile>
+    <ClCompile Include="Clash\DistanceHelper.cpp">
+      <Filter>Clash</Filter>
+    </ClCompile>
+    <ClCompile Include="Clash\Arm.cpp">
+      <Filter>Clash</Filter>
+    </ClCompile>
+    <ClCompile Include="Wysiwyg\Wysiwyg.cpp">
+      <Filter>Wysiwyg</Filter>
+    </ClCompile>
+    <ClCompile Include="Wysiwyg\Kinematrics\KinematicsWrapper.cpp">
+      <Filter>Wysiwyg\Kinematrics</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Config.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils\httplib.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Cobot\Cobot.h">
+      <Filter>Cobot</Filter>
+    </ClInclude>
+    <ClInclude Include="Cobot\StateRecv.h">
+      <Filter>Cobot</Filter>
+    </ClInclude>
+    <ClInclude Include="Models.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\NcControl.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base64\base64.h">
+      <Filter>Utils\base64</Filter>
+    </ClInclude>
+    <ClInclude Include="Clash\ArmDistance.h">
+      <Filter>Clash</Filter>
+    </ClInclude>
+    <ClInclude Include="Clash\EnvDistance.h">
+      <Filter>Clash</Filter>
+    </ClInclude>
+    <ClInclude Include="Clash\Models.h">
+      <Filter>Clash</Filter>
+    </ClInclude>
+    <ClInclude Include="Clash\DistanceHelper.h">
+      <Filter>Clash</Filter>
+    </ClInclude>
+    <ClInclude Include="Clash\DistanceDectector.h">
+      <Filter>Clash</Filter>
+    </ClInclude>
+    <ClInclude Include="Clash\Arm.h">
+      <Filter>Clash</Filter>
+    </ClInclude>
+    <ClInclude Include="Wysiwyg\Wysiwyg.h">
+      <Filter>Wysiwyg</Filter>
+    </ClInclude>
+    <ClInclude Include="Wysiwyg\Kinematrics\global.h">
+      <Filter>Wysiwyg\Kinematrics</Filter>
+    </ClInclude>
+    <ClInclude Include="Wysiwyg\Kinematrics\KinematicsWrapper.h">
+      <Filter>Wysiwyg\Kinematrics</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Config.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="configs.conf" />
+  </ItemGroup>
+</Project>
